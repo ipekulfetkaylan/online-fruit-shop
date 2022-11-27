@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organikka || Organic fruit & vegetables.</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../images/favicon.svg" />
+
+    <!-- font-awesome-link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- css-link -->
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/products-details.css">
+
+    <!-- google-font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body id="top">
+    <header class="header" data-header>
+        <div class="top-bar">
+          <div class="container">
+            <p>100 TL ve üzeri ücretsiz teslimat!</p>
+          </div>
+        </div>
+  
+        <div class="nav-wrapper">
+          <div class="container">
+            <h1 class="h1">
+              <a href="../html/index.html" class="logo">Orga<span>Nikka</span></a>
+            </h1>
+  
+            <button class="nav-open-btn" data-nav-open-btn>
+              <i class="fa-solid fa-bars fa-2x"></i>
+            </button>
+  
+            <nav class="navbar" data-navbar>
+              <button class="nav-close-btn" data-nav-close-btn>
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+  
+              <ul class="navbar-list">
+                <li>
+                  <a href="./index.html" class="navbar-link">Ana Sayfa</a>
+                </li>
+                <li>
+                  <a href="./index.html" class="navbar-link">Hakkımızda</a>
+                </li>
+                <li>
+                  <a href="./index.html" class="navbar-link">Alışveriş</a>
+                </li>
+                <li>
+                  <a href="./index.html" class="navbar-link">Blog</a>
+                </li>
+                <li>
+                  <a href="./index.html" class="navbar-link">Ürünler</a>
+                </li>
+                <li>
+                  <a href="./index.html" class="navbar-link">İletişim</a>
+                </li>
+              </ul>
+            </nav>
+  
+            <div class="header-action">
+              <div class="search-wrapper" data-search-wrapper>
+                <button class="header-action-btn" data-search-btn>
+                  <i class="fa-solid fa-magnifying-glass search-icon"></i>
+  
+                  <i class="fa-solid fa-xmark close-icon"></i>
+                </button>
+                <div class="input-wrapper">
+                  <input
+                    type="search"
+                    class="search-input"
+                    placeholder="Search..."
+                  />
+  
+                  <button class="search-submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </div>
+              <button class="header-action-btn" data-panel-btn="cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <data class="btn-badge">0</data>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <!-- aside -->
+      <!-- <aside class="aside">
+        <div class="side-panel" data-side-panel="whishlist">
+          <button class="panel-close-btn" data-panel-btn="whishlist">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+  
+          <ul class="panel-list">
+            <li class="panel-item">
+              <a href="#" class="panel-card">
+                <figure class="item-banner">
+                  <img
+                    src="../images/product-small-1.jpg"
+                    width="46"
+                    height="46"
+                  />
+                </figure>
+  
+                <div>
+                  <p class="item-title">Bright Side Vegetarian</p>
+  
+                  <span class="item-value">$20.15 x1</span>
+                </div>
+  
+                <button class="item-close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </a>
+            </li>
+  
+            <li class="panel-item">
+              <a href="#" class="panel-card">
+                <figure class="item-banner">
+                  <img
+                    src="../images/product-small-2.jpg"
+                    width="46"
+                    height="46"
+                  />
+                </figure>
+  
+                <div>
+                  <p class="item-title">Eco Vegetable</p>
+  
+                  <span class="item-value">$13.25 x2</span>
+                </div>
+  
+                <button class="item-close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </a>
+            </li>
+  
+            <li class="panel-item">
+              <a href="./product-details.html" class="panel-card">
+                <figure class="item-banner">
+                  <img
+                    src="../images/product-small-3.jpg"
+                    width="46"
+                    height="46"
+                  />
+                </figure>
+  
+                <div>
+                  <p class="item-title">House of Veggies</p>
+  
+                  <span class="item-value">$20.15 x1</span>
+                </div>
+  
+                <button class="item-close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </a>
+            </li>
+          </ul>
+  
+          <div class="subtotal">
+            <p class="subtotal-text">Subtotal:</p>
+  
+            <data class="subtotal-value" value="215.14">$215.14</data>
+          </div>
+  
+          <a href="./whishlist.html" class="panel-btn">View Whishlist</a>
+        </div>
+  
+        <div class="side-panel" data-side-panel="cart">
+          <button class="panel-close-btn" data-panel-btn="cart">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+  
+          <ul class="panel-list">
+            <li class="panel-item">
+              <a href="#" class="panel-card">
+                <figure class="item-banner">
+                  <img
+                    src="../images/product-small-1.jpg"
+                    alt=""
+                    width="46"
+                    height="46"
+                  />
+                </figure>
+                <div>
+                  <p class="item-title">Bright Side Vegetarian</p>
+                  <span class="item-value">$20.15x1</span>
+                </div>
+                <button class="item-close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </a>
+            </li>
+            <li class="panel-item">
+              <a href="#" class="panel-card">
+                <figure class="item-banner">
+                  <img
+                    src="../images/product-small-3.jpg"
+                    alt=""
+                    width="46"
+                    height="46"
+                  />
+                </figure>
+                <div>
+                  <p class="item-title">Bright Side Vegetarian</p>
+                  <span class="item-value">$25.15x1</span>
+                </div>
+                <button class="item-close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </a>
+            </li>
+          </ul>
+  
+          <div class="subtotal">
+            <p class="subtotal-text">Subtotal:</p>
+            <data class="subtotal-value" value="45.99">$45.99</data>
+          </div>
+          <a href="#" class="panel-btn">Add To Card</a>
+        </div>
+      </aside> -->
+
+    <main>
+        <article>
+            <!-- breadcumb -->
+            <div class="breadcum-wrapper">
+                <h2 class="page-title">Ürün Detayları</h2>
+                <ol class="breadcumb-list">
+                    <li class="breadcumb-item">
+                        <a href="./index.html" class="breadcumb-link">Ana sayfa</a>
+                    </li>
+                    <li class="breadcumb-item">/</li>
+                    <li class="breadcumb-item"> Ürün</li>
+                </ol>
+            </div>
+
+            <!-- product-details -->
+            <section class="section product-details">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="product-details-img">
+                            <figure class="product-display">
+                                <img src="../images/product-details4.jpg"  width="700" height="700"  class="w-100"  data-product-display>
+                            </figure>
+                            <ul class="product-thumbnail-list has-scrollbar">
+                                <li class="product-thumbnail-item">
+                                    <img src="../images/product-details5.1.jpg" width="700" height="700" class="w-100"  data-product-thumbnail>
+                                </li>
+                                <li class="product-thumbnail-item">
+                                    <img src="../images/product-details4.1.jpg" width="700" height="700" class="w-100"  data-product-thumbnail>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="product-details-content">
+                            <h3 class="product-title">Organik Ürün</h3>
+                            <data class="product-price">10.99 ₺</data>
+
+                            <div class="rating-wrapper">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="product-text">
+                              Potasyum ve B-kompleks vitaminleri gibi diğer vitamin ve mineralleri de içerir. Mandalina ve kabukları, birçok hastalığa karşı koruma sağlayan flavonoidler gibi antioksidanlar açısından zengindir ve bağışıklık sistemini destekler. İçerdiği lif sayesinde sindirim sistemini olumlu yönde etkiler ve uzun süre tok tutar.
+
+                            </p>
+                            <!-- <div class="product-weight-wrapper">
+                                <p class="product-weight-title">Ağırlık:</p>
+                                <ul class="product-weight-list">
+                                    <li class="product-weight-item">
+                                        <input type="radio"  name="weight" class="product-weight-radio"  id="weight-4">
+                                        <label for="weight-4" class="product-weight-label">500ML</label>
+                                    </li>
+                                    <li class="product-weight-item">
+                                        <input type="radio"  name="weight"  class="product-weight-radio"  id="weight-1">
+                                        <label for="weight-1" class="product-weight-label">1L</label>
+                                    </li>
+                                    <li class="product-weight-item">
+                                        <input type="radio"  name="weight"  class="product-weight-radio"  id="weight-2">
+                                        <label for="weight-2" class="product-weight-label">2L</label>
+                                    </li>
+                                    <li class="product-weight-item">
+                                        <input type="radio"  name="weight"  class="product-weight-radio"  id="weight-3">
+                                        <label for="weight-3" class="product-weight-label">3L</label>
+                                    </li>
+                                </ul>
+                            </div> -->
+                            <div class="product-qty">
+                                <input type="number" name="quantity" value="1" min="1" max="50" class="product-qty-input">
+                                <button class="btn btn-primary product-qty-btn">Sepete Ekle</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="description-title">Açıklama:</h4>
+                    <p class="description-text">
+                      Mandalina (Citrus reticulata), ılıman iklimde yetişmekte olan Turunçgiller (Rutaceae) familyasına ait bir meyve türüdür. Turuncu, sarı renklerde olan mandalina, etli ve sulu bir yapıya sahiptir. Mandalina, portakala nazaran daha yumuşak olan kabuğu soyulduktan sonra yenebildiği gibi suyu sıkılarak da içilebilir.
+                    </p>  
+                    <!-- <h4 class="description-title">
+                        Additional Information :
+                    </h4> -->
+
+                    <table class="description-table">
+                        <tr class="table-row">
+                            <th class="table-heading" scope="row">Puan</th>
+
+                            <td class="table-data">
+                                <div class="rating-wrapper">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-heading" scope="row">Tür</th>
+                            <td class="table-data">Meyve</td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-heading" scope="row">Ağırlık</th>
+                            <td class="table-data">1 kg</td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-heading" scope="row">Satıcı</th>
+                            <td class="table-data">Organikka</td>
+                        </tr>
+                    </table>
+                  
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">Orga<span class="span">Nikka</span></a>
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptate reprehenderit similique cumque dignissimos ipsum.
+            </p>
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-link">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-link">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Şirketimiz</p>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Alışveriş</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Hakkımızda</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Ürünler</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">İletişim</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">İletişim</p>
+            </li>
+            <li class="footer-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-pin"></i>
+              </div>
+              <address class="contact-link">
+                Lorem ipsum dolor sit cad. ipsum/10 lorem:25 ipsum:45 LOREM/ipsum
+              </address>
+            </li>
+            <li class="footer-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+             <a href="tel:+4925646247" class="contact-link">05807894568</a>
+            </li>
+            <li class="footer-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <a href="mailto:organikka@info.com" class="contact-link">organikka@info.com</a>
+            </li>
+          </ul>
+
+          <div class="footer-list">
+            <p class="footer-list-title">
+              Bülten
+            </p>
+            <p class="newsletter-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aliquam.
+            </p>
+
+            <form class="footer-form">
+              <input type="email" class="footer-input" placeholder="Email girin" required>
+              <button type="submit" class="footer-form-btn">
+                <i class="fa-regular fa-envelope"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2022 <a href="#" class="copyright-link"> Bütün hakları saklıdır.</a>
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-bottom-link">Ürün fiyatlarına KDV bedeli dahildir. </a>
+            </li>
+            ||
+            <li>
+              <a href="#" class="footer-bottom-link">Gizlilik sözleşmesi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+      <!-- backtotop -->
+
+      <a href="#" class="back-to-top" data-back-top-btn>
+        <i class="fa-solid fa-caret-up"></i>
+      </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+    
+
+
+
+      <script src="../js/script.js"></script>
+</body>
+</html>

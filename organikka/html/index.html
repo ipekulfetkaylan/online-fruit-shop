@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organikka || Organik meyve & sebze.</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../images/favicon.svg" />
+
+    <!-- font-awesome-link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- css-link -->
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <!-- google-font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <!-- header -->
+    <header class="header" data-header>
+      <div class="top-bar">
+        <div class="container">
+          <p>100 TL ve üzeri ücretsiz teslimat!</p>
+        </div>
+      </div>
+
+      <div class="nav-wrapper">
+        <div class="container">
+          <h1 class="h1">
+            <a href="../html/index.html" class="logo">Orga<span>Nikka</span></a>
+          </h1>
+
+          <button class="nav-open-btn" data-nav-open-btn>
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </button>
+
+          <nav class="navbar" data-navbar>
+            <button class="nav-close-btn" data-nav-close-btn>
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <ul class="navbar-list">
+              <li>
+                <a href="./index.html" class="navbar-link">Ana Sayfa</a>
+              </li>
+              <li>
+                <a href="./index.html" class="navbar-link">Hakkımızda</a>
+              </li>
+              <li>
+                <a href="./index.html" class="navbar-link">Alışveriş</a>
+              </li>
+              <li>
+                <a href="./index.html" class="navbar-link">Blog</a>
+              </li>
+              <li>
+                <a href="./index.html" class="navbar-link">Ürünler</a>
+              </li>
+              <li>
+                <a href="./index.html" class="navbar-link">İletişim</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header-action">
+            <div class="search-wrapper" data-search-wrapper>
+              <button class="header-action-btn" data-search-btn>
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+
+                <i class="fa-solid fa-xmark close-icon"></i>
+              </button>
+              <div class="input-wrapper">
+                <input
+                  type="search"
+                  class="search-input"
+                  placeholder="Search..."
+                />
+
+                <button class="search-submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- <button class="header-action-btn" id="heart-btn" data-panel-btn="whishlist">
+              <i class="fa-solid fa-heart"></i>
+              <data class="btn-badge" value="3">0</data>
+            </button> -->
+
+            <button class="header-action-btn" id="bag-btn" data-panel-btn="cart">
+              <i class="fa-solid fa-basket-shopping"></i>
+              <data class="btn-badge">0</data>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- aside -->
+    <aside class="aside">
+      <div class="side-panel side-cart" data-side-panel="cart">
+        <button class="panel-close-btn" id="close-btn" data-panel-btn="cart">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="panel-list">
+         <!-- <li class="panel-item">
+          oluşturulacak
+         </li> -->
+        </ul>
+        <div class="subtotal">
+          <p class="subtotal-text">Toplam:</p>
+          <data class="subtotal-value">0</data>
+        </div>
+        <a href="#" class="panel-btn clear-btn">Tümünü sil</a>
+      
+      </div>
+     
+    </aside>
+
+    <!-- main -->
+    <main>
+      <article>
+        <!-- hero -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">Tüm ürünler %25 indirim</p>
+              <h2 class="h1 hero-title">
+                Kaliteli <span class="span">organik</span>
+                meyve &
+                <span class="span">sebze.</span>
+              </h2>
+              <p class="hero-text">
+                2010'dan beri hizmetinizde.
+              </p>
+              <a href="#" class="btn btn-primary">
+                <span class="span">Alışverişe Başla</span>
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="../images/hero-banner.png"
+                class="w-100"
+                width="603"
+                height="634"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- service -->
+        <section class="section service">
+          <div class="container">
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="item-icon">
+                  <img
+                    src="../images/service-icon-1.png"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <h3 class="h3 item-title">Ücretsiz teslimat</h3>
+              </li>
+              <li class="service-item">
+                <div class="item-icon">
+                  <img
+                    src="../images/service-icon-2.png"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <h3 class="h3 item-title">Güvenli ödeme</h3>
+              </li>
+              <li class="service-item">
+                <div class="item-icon">
+                  <img
+                    src="../images/service-icon-3.png"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <h3 class="h3 item-title">24/7 destek</h3>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- offers -->
+        <section class="section offers">
+          <div class="container">
+            <ul class="offers-list has-scrollbar">
+              <li class="offers-item">
+                <a href="#" class="offers-card">
+                  <figure class="card-banner">
+                    <img
+                      src="../images/offer-1.png"
+                      width="292"
+                      height="230"
+                      class="w-100"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <p class="card-subtitle">%25 indirim</p>
+                    <h3 class="h3 card-title">Taze sebze paketi</h3>
+                    <button class="btn btn-primary">Şimdi al</button>
+                  </div>
+                </a>
+              </li>
+              <li class="offers-item">
+                <a href="#" class="offers-card">
+                  <figure class="card-banner">
+                    <img
+                      src="../images/offer-2.png"
+                      width="292"
+                      height="230"
+                      class="w-100"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <p class="card-subtitle">%25 indirim</p>
+                    <h3 class="h3 card-title">Sağlıklı et paketi</h3>
+                    <button class="btn btn-primary">Şimdi al</button>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- product -->
+        <section class="section product">
+          <div class="container">
+            <p class="section-subtitle">-- Organik ürünler --</p>
+            <h2 class="h2 section-title">Bütün organik ürünler</h2>
+
+            <ul class="filter-list">
+              <li>
+                <button class="filter-btn active">
+                  <img
+                    src="../images/filter-1.png"
+                    width="20"
+                    class="default"
+                  />
+
+                  <img
+                    src="../images/filter-1-active.png"
+                    width="20"
+                    class="color"
+                  />
+                  <p class="filter-text">Sebze</p>
+                </button>
+              </li>
+              <li>
+                <button class="filter-btn">
+                  <img
+                    src="../images/filter-2.png"
+                    width="20"
+                    class="default"
+                  />
+
+                  <img
+                    src="../images/filter-2-active.png"
+                    width="20"
+                    class="color"
+                  />
+                  <p class="filter-text">Balık & Et</p>
+                </button>
+              </li>
+              <li>
+                <button class="filter-btn">
+                  <img
+                    src="../images/filter-3.png"
+                    width="15"
+                    class="default"
+                  />
+
+                  <img
+                    src="../images/filter-3-active.png"
+                    width="15"
+                    class="color"
+                  />
+                  <p class="filter-text">Meyve</p>
+                </button>
+              </li>
+              <li>
+                <button class="filter-btn">
+                  <img
+                    src="../images/filter-1.png"
+                    width="20"
+                    class="default"
+                  />
+
+                  <img
+                    src="../images/filter-1-active.png"
+                    width="20"
+                    class="color"
+                  />
+                  <p class="filter-text">Kurutulmuş Ürünler</p>
+                </button>
+              </li>
+            </ul>
+
+            <ul class="grid-list">
+              <!-- <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+                    <img src="../images/product-1.png" width="189" height="189" loading="lazy" alt="Fresh Orangey">
+  
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+  
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+  
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+  
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+  
+                  <div class="rating-wrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+  
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Orangey</a>
+                  </h3>
+  
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+  
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+  
+                  <button class="btn btn-primary">Add to Cart</button>
+  
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+                    <img src="../images/product-2.png" width="189" height="189" loading="lazy" alt="Fresh Orangey">
+  
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+  
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+  
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+  
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+  
+                  <div class="rating-wrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+  
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Orangey</a>
+                  </h3>
+  
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+  
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+  
+                  <button class="btn btn-primary">Add to Cart</button>
+  
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+                    <img src="../images/product-3.png" width="189" height="189" loading="lazy" alt="Fresh Orangey">
+  
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+  
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+  
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+  
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+  
+                  <div class="rating-wrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+  
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Orangey</a>
+                  </h3>
+  
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+  
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+  
+                  <button class="btn btn-primary">Add to Cart</button>
+  
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+                    <img src="../images/product-4.png" width="189" height="189" loading="lazy" alt="Fresh Orangey">
+  
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+  
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+  
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+  
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+  
+                  <div class="rating-wrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+  
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Orangey</a>
+                  </h3>
+  
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+  
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+  
+                  <button class="btn btn-primary">Add to Cart</button>
+  
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+                    <img src="../images/product-5.png" width="189" height="189" loading="lazy" alt="Fresh Orangey">
+  
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+  
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+  
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+  
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+  
+                  <div class="rating-wrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+  
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Orangey</a>
+                  </h3>
+  
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+  
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+  
+                  <button class="btn btn-primary">Add to Cart</button>
+  
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+                    <img src="../images/product-6.png" width="189" height="189" loading="lazy" alt="Fresh Orangey">
+  
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+  
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+  
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+  
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+  
+                  <div class="rating-wrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+  
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Orangey</a>
+                  </h3>
+  
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+  
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+  
+                  <button class="btn btn-primary">Add to Cart</button>
+  
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+                    <img src="../images/product-7.png" width="189" height="189" loading="lazy" alt="Fresh Orangey">
+  
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+  
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+  
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+  
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+  
+                  <div class="rating-wrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+  
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Orangey</a>
+                  </h3>
+  
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+  
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+  
+                  <button class="btn btn-primary">Add to Cart</button>
+  
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+                    <img src="../images/product-8.png" width="189" height="189" loading="lazy" alt="Fresh Orangey">
+  
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+  
+                        <div class="tooltip">Add to Whishlist</div>
+                      </button>
+  
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+  
+                        <div class="tooltip">Quick View</div>
+                      </button>
+                    </div>
+                  </figure>
+  
+                  <div class="rating-wrapper">
+                    <div class="rating-wrapper">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      </div>
+                  </div>
+  
+                  <h3 class="h4 card-title">
+                    <a href="./product-details.html">Fresh Orangey</a>
+                  </h3>
+  
+                  <div class="price-wrapper">
+                    <del class="del">$75.00</del>
+  
+                    <data class="price" value="85.00">$85.00</data>
+                  </div>
+  
+                  <button class="btn btn-primary">Add to Cart</button>
+  
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+          <div class="container">
+            <p class="section-subtitle">Kış indirimi</p>
+
+            <h2 class="h2 section-title">Kış sebzelerinde %25 indirim.</h2>
+            <p class="cta-text">
+             Yıllardan beri devam eden gelenek..
+            </p>
+            <a href="#" class="btn btn-primary">
+              <span class="span">Şimdi al</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+        </section>
+
+        <!-- top-product -->
+
+        <section class="section top-product">
+          <div class="container">
+            <p class="section-subtitle">-- Organik --</p>
+            <h2 class="h2 section-title">Popüler ürünler</h2>
+
+            <ul class="top-product-list grid-list">
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img src="../images/top-product-1.png"width="100" height="100" >
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+                        <div class="tooltip">Favorilere ekle</div>
+                      </button>
+
+                      <a href="../html/product-details.html">
+                      <button class="product-btn eye">
+                        <i class="fa-regular fa-eye"></i>
+                        <div class="tooltip">Göz at</div>
+                      </button>
+                      </a>
+                     
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3 class="h4 card-title">
+                      <a href="#">Mandalina</a>
+                    </h3>
+                    <div class="price-wrapper">
+                      <del class="del">15.00 ₺</del>
+                      <data class="price">10.99 ₺</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img src="../images/top-product-2.png"width="100" height="100" >
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+                        <div class="tooltip">Favorilere ekle</div>
+                      </button>
+
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+                        <div class="tooltip">Göz at</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Lime</a>
+                    </h3>
+                    <div class="price-wrapper">
+                      <del class="del">30.99 ₺</del>
+                      <data class="price">28.99 ₺</data>
+                    </div>
+                    
+                  </div>
+                </div>
+              </li>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img src="../images/top-product-3.png"width="100" height="100" >
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+                        <div class="tooltip">Favorilere ekle</div>
+                      </button>
+
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+                        <div class="tooltip">Göz at</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Karpuz</a>
+                    </h3>
+                    <div class="price-wrapper">
+                      <del class="del"></del>
+                      <data class="price">42.99 ₺</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img src="../images/top-product-4.png"width="100" height="100" >
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+                        <div class="tooltip">Favorilere ekle</div>
+                      </button>
+
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+                        <div class="tooltip">Göz at</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Çilek</a>
+                    </h3>
+                    <div class="price-wrapper">
+                      <del class="del"></del>
+                      <data class="price">54.99 ₺</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img src="../images/top-product-5.png"width="100" height="100" >
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+                        <div class="tooltip">Faborilere ekle</div>
+                      </button>
+
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+                        <div class="tooltip">Göz at</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <div class="rating-wrapper">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Nar</a>
+                    </h3>
+                    <div class="price-wrapper">
+                      <del class="del"></del>
+                      <data class="price">15.99</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img src="../images/top-product-6.png"width="100" height="100" >
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+                        <div class="tooltip">Favorilere ekle</div>
+                      </button>
+
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+                        <div class="tooltip">Göz at</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Brokoli</a>
+                    </h3>
+                    <div class="price-wrapper">
+                      <del class="del">18.99 ₺</del>
+                      <data class="price">15.99 ₺</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img src="../images/top-product-7.png"width="100" height="100" >
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+                        <div class="tooltip">Favorilere eklet</div>
+                      </button>
+
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+                        <div class="tooltip">Göz at</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">Ispanak</a>
+                    </h3>
+                    <div class="price-wrapper">
+                      <del class="del">12.99 ₺</del>
+                      <data class="price">10.99 ₺</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="top-product-item">
+                <div class="product-card top-product-card">
+                  <figure class="card-banner">
+                    <img src="../images/top-product-8.png"width="100" height="100" >
+
+                    <div class="btn-wrapper">
+                      <button class="product-btn">
+                        <i class="fa-regular fa-heart"></i> 
+                        <div class="tooltip">Favorilere ekle</div>
+                      </button>
+
+                      <button class="product-btn">
+                        <i class="fa-regular fa-eye"></i>
+                        <div class="tooltip">Göz at</div>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="rating-wrapper">
+                      <div class="rating-wrapper">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+
+                    <h3 class="h4 card-title">
+                      <a href="./product-details.html">California Biber</a>
+                    </h3>
+                    <div class="price-wrapper">
+                      <del class="del"></del>
+                      <data class="price" value="42.99">42.99 ₺</data>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- partner -->
+        <section class="section partner">
+          <div class="container">
+            <p class="section-subtitle">-- Organik Ürünler --</p>
+            <h2 class="h2 section-title">Güvenilir Ortaklarımız</h2>
+
+            <ul class="has-scrollbar">
+              <li class="partner-item">
+                <figure class="partner-logo">
+                  <img src="../images/partner-1.png" width="132" height="134">
+                </figure>
+              </li>
+              <li class="partner-item">
+                <figure class="partner-logo">
+                  <img src="../images/partner-2.png" width="132" height="134">
+                </figure>
+              </li>
+              <li class="partner-item">
+                <figure class="partner-logo">
+                  <img src="../images/partner-3.png" width="132" height="134">
+                </figure>
+              </li>
+              <li class="partner-item">
+                <figure class="partner-logo">
+                  <img src="../images/partner-4.png" width="132" height="134">
+                </figure>
+              </li>
+              <li class="partner-item">
+                <figure class="partner-logo">
+                  <img src="../images/partner-5.png" width="132" height="134">
+                </figure>
+              </li>
+              <li class="partner-item">
+                <figure class="partner-logo">
+                  <img src="../images/partner-6.png" width="132" height="134">
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- testimonials -->
+        <section class="section testimonials">
+          <div class="container">
+            <p class="section-subtitle"> -- Geri Bildirimler --</p>
+            <h2 class="h2 section-title">Müşterilerimizden aldığımız mutlu geri dönüşler</h2>
+
+            <ul class="has-scrollbar">
+              <li class="testi-item">
+                <div class="testi-card">
+                  <div class="card-header">
+                    <img src="../images/quote-left.png"  width="25" height="25">
+
+                    <img src="../images/testimonial-1.jpg"  width="90" height="90"  class="card-avatar">
+
+                    <img src="../images/quote-right.png" width="25" height="25">
+                  </div>
+
+                  <div class="rating-wrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <blockquote class="card-text">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis velit eos voluptate ratione iure distinctio labore beatae. Magni tempore quia nam, ea laborum atque reiciendis.
+                  </blockquote>
+                  <h3 class="card-title">John Petric</h3>
+                  <p class="card-subtitle">Menager</p>
+                </div>
+              </li>
+              <li class="testi-item">
+                <div class="testi-card">
+                  <div class="card-header">
+                    <img src="../images/quote-left.png"  width="25" height="25">
+
+                    <img src="../images/testimonial-2.jpg"  width="90" height="90"  class="card-avatar">
+
+                    <img src="../images/quote-right.png" width="25" height="25">
+                  </div>
+
+                  <div class="rating-wrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <blockquote class="card-text">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis velit eos voluptate ratione iure distinctio labore beatae. Magni tempore quia nam, ea laborum atque reiciendis.
+                  </blockquote>
+                  <h3 class="card-title">John Petric</h3>
+                  <p class="card-subtitle">Menager</p>
+                </div>
+              </li>
+              <li class="testi-item">
+                <div class="testi-card">
+                  <div class="card-header">
+                    <img src="../images/quote-left.png"  width="25" height="25">
+
+                    <img src="../images/testimonial-3.jpg"  width="90" height="90"  class="card-avatar">
+
+                    <img src="../images/quote-right.png" width="25" height="25">
+                  </div>
+
+                  <div class="rating-wrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+
+                  <blockquote class="card-text">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis velit eos voluptate ratione iure distinctio labore beatae. Magni tempore quia nam, ea laborum atque reiciendis.
+                  </blockquote>
+                  <h3 class="card-title">John Petric</h3>
+                  <p class="card-subtitle">Menager</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- blog -->
+        <section class="section blog">
+          <div class="container">
+            <p class="section-subtitle"> -- Habeler ve Blog --</p>
+            <h2 class="h2 section-title">Organik ürünler hakkında ve çok daha fazlası..</h2>
+
+            <ul class="blog-list">
+              <li>
+                <div class="blog-card">
+                  <figure class="card-banner">
+                    <img src="../images/blog-1.jpg" width="451" height="310" class="w-100">
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="wrapper-item">
+                        <i class="fa-regular fa-calendar"></i>
+                        <time class="text" datetime="2022-09-22">22 September, 2022</time>
+                      </div>
+
+                      <div class="wrapper-item">
+                        <i class="fa-regular fa-heart"></i> 
+                        <span class="text">1M</span>
+                      </div>
+                    </div>
+                    <h3 class="h3 card-title">
+                      <a href="#">Ürünlerin organik olduğuna nasıl güvenebiliriz?</a>
+                    </h3>
+                    <a href="#" class="btn btn-primary">
+                      <span>Daha fazla oku</span>
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="blog-card">
+                  <figure class="card-banner">
+                    <img src="../images/blog-2.jpg" width="451" height="310" class="w-100">
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="wrapper-item">
+                        <i class="fa-regular fa-calendar"></i>
+                        <time class="text" datetime="2022-09-22">22 September, 2022</time>
+                      </div>
+
+                      <div class="wrapper-item">
+                        <i class="fa-regular fa-heart"></i> 
+                        <span class="text">1M</span>
+                      </div>
+                    </div>
+                    <h3 class="h3 card-title">
+                      <a href="#">Organik beslemenin faydaları nelerdir?</a>
+                    </h3>
+                    <a href="#" class="btn btn-primary">
+                      <span>Daha fazla oku</span>
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="blog-card">
+                  <figure class="card-banner">
+                    <img src="../images/blog-3.jpg" width="451" height="310" class="w-100">
+                  </figure>
+                  <div class="card-content">
+                    <div class="card-wrapper">
+                      <div class="wrapper-item">
+                        <i class="fa-regular fa-calendar"></i>
+                        <time class="text" datetime="2022-09-22">22 September, 2022</time>
+                      </div>
+
+                      <div class="wrapper-item">
+                        <i class="fa-regular fa-heart"></i> 
+                        <span class="text">1M</span>
+                      </div>
+                    </div>
+                    <h3 class="h3 card-title">
+                      <a href="#">Organikka hakkında bilmeniz gerekenler</a>
+                    </h3>
+                    <a href="#" class="btn btn-primary">
+                      <span>Daha fazla oku</span>
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- newsletter -->
+        <section class="section newsletter">
+          <div class="container">
+            <div class="newsletter-card">
+              <p class="section-subtitle"> -- Bültene Abone Ol --</p>
+              <h2 class="h2 section-title">Bültene abone ol <span class="span">hediye kuponu kazan.</span> </h2>
+              <form class="newsletter-form">
+                <input type="email" placeholder="Email adresi" required class="input-email">
+                <button class="btn btn-primary">
+                  Üye Ol
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+          <div class="footer-top">
+            <div class="container">
+              <div class="footer-brand">
+                <a href="#" class="logo">Orga<span class="span">Nikka</span></a>
+                <p class="footer-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptate reprehenderit similique cumque dignissimos ipsum.
+                </p>
+                <ul class="social-list">
+                  <li>
+                    <a href="#" class="social-link">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-link">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-link">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-link">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <ul class="footer-list">
+                <li>
+                  <p class="footer-list-title">Şirketimiz</p>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Alışveriş</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Hakkımızda</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Blog</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Ürünler</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">İletişim</a>
+                </li>
+              </ul>
+
+              <ul class="footer-list">
+                <li>
+                  <p class="footer-list-title">İletişim</p>
+                </li>
+                <li class="footer-item">
+                  <div class="contact-icon">
+                    <i class="fa-solid fa-location-pin"></i>
+                  </div>
+                  <address class="contact-link">
+                    Lorem ipsum dolor sit cad. ipsum/10 lorem:25 ipsum:45 LOREM/ipsum
+                  </address>
+                </li>
+                <li class="footer-item">
+                  <div class="contact-icon">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                 <a href="tel:+4925646247" class="contact-link">05807894568</a>
+                </li>
+                <li class="footer-item">
+                  <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <a href="mailto:organikka@info.com" class="contact-link">organikka@info.com</a>
+                </li>
+              </ul>
+
+              <div class="footer-list">
+                <p class="footer-list-title">
+                  Bülten
+                </p>
+                <p class="newsletter-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aliquam.
+                </p>
+
+                <form class="footer-form">
+                  <input type="email" class="footer-input" placeholder="Email girin" required>
+                  <button type="submit" class="footer-form-btn">
+                    <i class="fa-regular fa-envelope"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="container">
+              <p class="copyright">
+                &copy; 2022 <a href="#" class="copyright-link"> Bütün hakları saklıdır.</a>
+              </p>
+
+              <ul class="footer-bottom-list">
+                <li>
+                  <a href="#" class="footer-bottom-link">Ürün fiyatlarına KDV bedeli dahildir. </a>
+                </li>
+                ||
+                <li>
+                  <a href="#" class="footer-bottom-link">Gizlilik sözleşmesi</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+        <!-- backtotop -->
+
+        <a href="#" class="back-to-top" data-back-top-btn>
+          <i class="fa-solid fa-caret-up"></i>
+        </a>
+
+
+
+      
+      
+      
+      </article>
+    </main>
+
+    <!-- contentful cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+    <!-- <script src="../js/script.js"></script> -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>
